@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		BB68FAB62695A8F900F8FC97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB68FAB52695A8F900F8FC97 /* AppDelegate.swift */; };
-		BB68FAB82695A8F900F8FC97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB68FAB72695A8F900F8FC97 /* SceneDelegate.swift */; };
-		BB68FABA2695A8F900F8FC97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB68FAB92695A8F900F8FC97 /* ViewController.swift */; };
-		BB68FABD2695A8F900F8FC97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB68FABB2695A8F900F8FC97 /* Main.storyboard */; };
 		BB68FABF2695A8FA00F8FC97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB68FABE2695A8FA00F8FC97 /* Assets.xcassets */; };
-		BB68FAC22695A8FA00F8FC97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB68FAC02695A8FA00F8FC97 /* LaunchScreen.storyboard */; };
+		BB68FACB2695AE8A00F8FC97 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB68FAC92695AE8A00F8FC97 /* LoginViewController.swift */; };
+		BB68FACC2695AE8A00F8FC97 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB68FACA2695AE8A00F8FC97 /* LoginViewController.xib */; };
+		BB82A302269EF3C800B87356 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB82A301269EF3C800B87356 /* SceneDelegate.swift */; };
+		BB82A305269F163800B87356 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB82A303269F163800B87356 /* RegistrationViewController.swift */; };
+		BB82A306269F163800B87356 /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB82A304269F163800B87356 /* RegistrationViewController.xib */; };
+		BBEB5DCC2697C34F00010297 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB5DCA2697C34F00010297 /* SplashViewController.swift */; };
+		BBEB5DCD2697C34F00010297 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEB5DCB2697C34F00010297 /* SplashViewController.xib */; };
+		BBEB5DD02697C67600010297 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEB5DCE2697C67600010297 /* MainViewController.swift */; };
+		BBEB5DD12697C67600010297 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBEB5DCF2697C67600010297 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB68FAB22695A8F900F8FC97 /* xCritical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xCritical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB68FAB52695A8F900F8FC97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB68FAB72695A8F900F8FC97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB68FAB92695A8F900F8FC97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BB68FABC2695A8F900F8FC97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB68FABE2695A8FA00F8FC97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BB68FAC12695A8FA00F8FC97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB68FAC32695A8FA00F8FC97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB68FAC92695AE8A00F8FC97 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BB68FACA2695AE8A00F8FC97 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		BB82A301269EF3C800B87356 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BB82A303269F163800B87356 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		BB82A304269F163800B87356 /* RegistrationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
+		BBEB5DCA2697C34F00010297 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		BBEB5DCB2697C34F00010297 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		BBEB5DCE2697C67600010297 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BBEB5DCF2697C67600010297 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				BB68FAB52695A8F900F8FC97 /* AppDelegate.swift */,
-				BB68FAB72695A8F900F8FC97 /* SceneDelegate.swift */,
-				BB68FAB92695A8F900F8FC97 /* ViewController.swift */,
-				BB68FABB2695A8F900F8FC97 /* Main.storyboard */,
+				BB82A301269EF3C800B87356 /* SceneDelegate.swift */,
 				BB68FABE2695A8FA00F8FC97 /* Assets.xcassets */,
-				BB68FAC02695A8FA00F8FC97 /* LaunchScreen.storyboard */,
 				BB68FAC32695A8FA00F8FC97 /* Info.plist */,
+				BB68FAC92695AE8A00F8FC97 /* LoginViewController.swift */,
+				BB68FACA2695AE8A00F8FC97 /* LoginViewController.xib */,
+				BBEB5DCA2697C34F00010297 /* SplashViewController.swift */,
+				BBEB5DCB2697C34F00010297 /* SplashViewController.xib */,
+				BBEB5DCE2697C67600010297 /* MainViewController.swift */,
+				BBEB5DCF2697C67600010297 /* MainViewController.xib */,
+				BB82A303269F163800B87356 /* RegistrationViewController.swift */,
+				BB82A304269F163800B87356 /* RegistrationViewController.xib */,
 			);
 			path = xCritical;
 			sourceTree = "<group>";
@@ -124,9 +139,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB68FAC22695A8FA00F8FC97 /* LaunchScreen.storyboard in Resources */,
+				BB82A306269F163800B87356 /* RegistrationViewController.xib in Resources */,
+				BBEB5DCD2697C34F00010297 /* SplashViewController.xib in Resources */,
 				BB68FABF2695A8FA00F8FC97 /* Assets.xcassets in Resources */,
-				BB68FABD2695A8F900F8FC97 /* Main.storyboard in Resources */,
+				BBEB5DD12697C67600010297 /* MainViewController.xib in Resources */,
+				BB68FACC2695AE8A00F8FC97 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,32 +154,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB68FABA2695A8F900F8FC97 /* ViewController.swift in Sources */,
+				BB82A305269F163800B87356 /* RegistrationViewController.swift in Sources */,
+				BBEB5DD02697C67600010297 /* MainViewController.swift in Sources */,
+				BB82A302269EF3C800B87356 /* SceneDelegate.swift in Sources */,
+				BB68FACB2695AE8A00F8FC97 /* LoginViewController.swift in Sources */,
 				BB68FAB62695A8F900F8FC97 /* AppDelegate.swift in Sources */,
-				BB68FAB82695A8F900F8FC97 /* SceneDelegate.swift in Sources */,
+				BBEB5DCC2697C34F00010297 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		BB68FABB2695A8F900F8FC97 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB68FABC2695A8F900F8FC97 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BB68FAC02695A8FA00F8FC97 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB68FAC12695A8FA00F8FC97 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BB68FAC42695A8FA00F8FC97 /* Debug */ = {
@@ -287,6 +288,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZR4TQ435L4;
 				INFOPLIST_FILE = xCritical/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ilyazhdaney.xCritical;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +307,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZR4TQ435L4;
 				INFOPLIST_FILE = xCritical/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ilyazhdaney.xCritical;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

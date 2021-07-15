@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  xCritical
+//  NewTableApp
 //
-//  Created by Ilya Zhdaney on 07.07.2021.
+//  Created by Ilya Zhdaney on 11.07.2021.
 //
 
 import UIKit
